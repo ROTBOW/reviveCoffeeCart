@@ -3,10 +3,7 @@ import React, { useState } from "react";
 import './dropdown.scss';
 
 const Dropdown = props => {
-    // const [list, setList] = useState();
     const [drop, setDrop] = useState(false);
-
-    console.log(drop);
 
     return (
 
