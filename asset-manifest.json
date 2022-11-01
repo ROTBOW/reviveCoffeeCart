@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/reviveCoffeeCart/static/css/main.073c9b0a.css",
-    "main.js": "/reviveCoffeeCart/static/js/main.25b8afe7.js",
+    "main.css": "/reviveCoffeeCart/static/css/main.9ec0c66b.css",
+    "main.js": "/reviveCoffeeCart/static/js/main.28d79fe7.js",
     "static/js/787.0ae90b7b.chunk.js": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js",
-    "static/media/logo.svg": "/reviveCoffeeCart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/rccLogo.png": "/reviveCoffeeCart/static/media/rccLogo.28712214260c083db8c8.png",
     "index.html": "/reviveCoffeeCart/index.html",
-    "main.073c9b0a.css.map": "/reviveCoffeeCart/static/css/main.073c9b0a.css.map",
-    "main.25b8afe7.js.map": "/reviveCoffeeCart/static/js/main.25b8afe7.js.map",
+    "static/media/caret.svg": "/reviveCoffeeCart/static/media/caret.1d57e6010ffecf14939d1f3fe867c8d6.svg",
+    "main.9ec0c66b.css.map": "/reviveCoffeeCart/static/css/main.9ec0c66b.css.map",
+    "main.28d79fe7.js.map": "/reviveCoffeeCart/static/js/main.28d79fe7.js.map",
     "787.0ae90b7b.chunk.js.map": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.25b8afe7.js"
+    "static/css/main.9ec0c66b.css",
+    "static/js/main.28d79fe7.js"
   ]
 }
