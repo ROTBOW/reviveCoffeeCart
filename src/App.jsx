@@ -1,7 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './App.scss';
+// import {ReactComponent as Arrow} from './assets/images/caret.svg';
 
 import Navbar from './components/navbar/navbar';
+// import Footer from './components/footer/foot';
 
 const App = () => {
 
@@ -9,7 +11,9 @@ const App = () => {
   return (
     <div className="App">
       <Navbar/>
-      This is the page
+      <div className="content-container">
+        {/* <p><Arrow/> The Options</p> */}
+      </div>
     </div>
   );
 }

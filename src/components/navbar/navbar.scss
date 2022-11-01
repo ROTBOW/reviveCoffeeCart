@@ -1,5 +1,39 @@
 .navbar {
-    height: 2rem;
-    width: 100%;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    
+    img {
+        animation: 3s ease-out 0s 1 fadeInFromAbove;
+        width: 25rem;
+        margin-top: 4rem;
+        
+        transition: all 500ms;
+    }
+    
+    .slidein-text {
+        margin-left: 2rem;
+        animation: 4s ease-out 0s 1 fadeInFromSide;
+    }
+}
+
+@keyframes fadeInFromAbove {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 100%; 
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInFromSide {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 100%; 
+        transform: translateX(0);
+    }
 }

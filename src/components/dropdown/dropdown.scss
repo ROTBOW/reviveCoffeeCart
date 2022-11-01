@@ -1,0 +1,48 @@
+.dropdown-container {
+    
+    svg {
+        height: auto;
+        width: 0.8rem;
+        transform: rotateZ(90deg);
+        margin-right: 0.1rem;
+        
+        
+        transition: all 1s;
+        &.active {
+            transform: rotateZ(180deg);
+            margin-right: 1rem;
+        }
+    }
+
+    .dropdown-button {
+        display: flex;
+        cursor: pointer;
+        user-select: none;
+
+        .side-line {
+            opacity: 0;
+            transition: opacity 1s;
+            &.active {
+                opacity: 100%;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 0.5rem;
+        max-height: 400px;
+
+        transition: 5s all;
+        &.hide {
+            max-height: 0;
+            transition: 500ms all;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

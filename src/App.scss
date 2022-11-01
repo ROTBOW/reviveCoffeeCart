@@ -1,4 +1,22 @@
-
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content-container {
+    width: 40rem;
+    animation: 3s ease-out 0s 1 fadeInFromBelow;
+  }
 }
+
+@keyframes fadeInFromBelow {
+  0% {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  100% {
+      opacity: 100%; 
+      transform: translateY(0);
+  }
+}
+
