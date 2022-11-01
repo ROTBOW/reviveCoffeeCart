@@ -11,7 +11,6 @@ const Navbar = () => {
         <div className="navbar">
             <div>
                 <img src={logo} alt="Revive Coffee Logo"/>
-                {/* <h2>Revive Coffee Cart</h2> */}
             </div>
             <div className="slidein-text">
                 <h2>Jayda Luce</h2>

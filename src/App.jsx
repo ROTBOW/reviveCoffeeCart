@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.scss';
+import Dropdown from './components/dropdown/dropdown';
 // import {ReactComponent as Arrow} from './assets/images/caret.svg';
 
 import Navbar from './components/navbar/navbar';
@@ -12,7 +13,8 @@ const App = () => {
     <div className="App">
       <Navbar/>
       <div className="content-container">
-        {/* <p><Arrow/> The Options</p> */}
+        <Dropdown text="Coffee List" list="Latte,Cappucino,Americano,Espresso,Coldbrew,Expresso + Tonic"/>
+        <Dropdown text="Les Saveurs" subtext="(Flavors)" list="Vanilla,Lavender,Mocha,Honey,Sugar Free Vanilla"/>
       </div>
     </div>
   );

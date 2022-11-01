@@ -11,7 +11,11 @@ const Dropdown = props => {
             <div className="dropdown-button" onClick={() => setDrop(val => !val)}>
                 <Arrow className={drop ? 'active' : ''}/>
                 <div className={`side-line ${drop ? 'active': ''}`}>-</div>
-                {props.text}
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                    {props.text}
+                    <div className="dropdown-subtext">{props.subtext}</div>
+                </div>
+                {/* <div style={{width: 0, height: 0, position: 'relative'}}><div className="dropdown-subtext">{props.subtext}</div></div> */}
                 <div className={`side-line ${drop ? 'active': ''}`}>-</div>
             </div>
             <ul className={drop ? '' : 'hide'}>
