@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.scss';
 import Dropdown from './components/dropdown/dropdown';
-// import {ReactComponent as Arrow} from './assets/images/caret.svg';
 
 import Navbar from './components/navbar/navbar';
-// import Footer from './components/footer/foot';
 
 const App = () => {
 

@@ -5,6 +5,16 @@ import './dropdown.scss';
 const Dropdown = props => {
     const [drop, setDrop] = useState(false);
 
+    const typeCheck = (context) => {
+        if (context.endsWith('@gmail.com')) {
+            return <a href={`mailto: ${context}`}>{context}</a>
+        } else if (context.startsWith('@')) {
+            return <a href="https://www.instagram.com/revivecoffeecart/">{context}</a>
+        } else {
+            return context
+        }
+    };
+
     return (
 
         <div className="dropdown-container">
@@ -15,12 +25,11 @@ const Dropdown = props => {
                     {props.text}
                     <div className="dropdown-subtext">{props.subtext}</div>
                 </div>
-                {/* <div style={{width: 0, height: 0, position: 'relative'}}><div className="dropdown-subtext">{props.subtext}</div></div> */}
                 <div className={`side-line ${drop ? 'active': ''}`}>-</div>
             </div>
             <ul className={drop ? '' : 'hide'}>
                 {
-                    props.list.split(',').map((item, idx) => (<li key={idx}>{item}</li>))
+                    props.list.split(',').map((item, idx) => (<li key={idx}>{typeCheck(item)}</li>))
                 }
             </ul>
         </div>
