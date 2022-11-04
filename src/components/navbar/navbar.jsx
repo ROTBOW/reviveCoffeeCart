@@ -6,6 +6,7 @@ import Dropdown from "../dropdown/dropdown";
 import {ReactComponent as Phone} from '../../assets/images/phone.svg';
 import {ReactComponent as Email} from '../../assets/images/email.svg';
 import {ReactComponent as Insta} from '../../assets/images/instagram.svg';
+import {ReactComponent as Copy} from '../../assets/images/copy.svg';
 
 
 const Navbar = () => {
@@ -26,7 +27,13 @@ const Navbar = () => {
                 <h4>Events & Meetings</h4>
                 {/* <Dropdown text="Contact Me" list="(951) 776-7850,revivecoffeecart@gmail.com,@revivecoffeecart"/> */}
                 <ul>
-                    <li><Phone onClick={()=>{setShowPhone(val => !val)}}/><div id="phone" className={showPhone ? '' : 'hide'}>(951) 776-7850</div></li>
+                    <li>
+                        <Phone onClick={()=>{setShowPhone(val => !val)}}/>
+                        <div id="phone" className={showPhone ? '' : 'hide'}>
+                            (951) 776-7850 <Copy onClick={()=>{navigator.clipboard.writeText('(951) 776-7850')}}/>
+                            {/* <spam>Copied!</spam> */}
+                        </div>
+                    </li>
                     <li><a href="mailto: revivecoffeecart@gmail.com"><Email/></a></li>
                     <li><a href="https://www.instagram.com/revivecoffeecart/" target="_blank"><Insta/></a></li>
                 </ul>

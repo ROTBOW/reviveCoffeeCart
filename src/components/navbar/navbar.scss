@@ -13,6 +13,14 @@
     .slidein-text {
         margin-left: 2rem;
         animation: 4s ease-out 0s 1 fadeInFromSide;
+        h2, h3, h4 {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+        }
 
         ul {
             position: absolute;
@@ -32,6 +40,10 @@
                     transition: all 500ms;
                     &.hide {
                         opacity: 0;
+                    }
+
+                    svg {
+                        width: 1rem;
                     }
                 }
             }
