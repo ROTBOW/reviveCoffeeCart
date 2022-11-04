@@ -1,15 +1,20 @@
 import {ReactComponent as Arrow} from '../../assets/images/caret.svg';
+import {ReactComponent as Phone} from '../../assets/images/phone.svg';
+import {ReactComponent as Email} from '../../assets/images/email.svg';
+import {ReactComponent as Insta} from '../../assets/images/instagram.svg';
 import React, { useState } from "react";
 import './dropdown.scss';
 
 const Dropdown = props => {
-    const [drop, setDrop] = useState(false);
+    const [drop, setDrop] = useState(true);
 
     const typeCheck = (context) => {
-        if (context.endsWith('@gmail.com')) {
-            return <a href={`mailto: ${context}`}>{context}</a>
+        if (context[0] === '(') {
+            return <><Phone/>{context}</>
+        } else if (context.endsWith('@gmail.com')) {
+            return <a href={`mailto: ${context}`}><Email/></a>
         } else if (context.startsWith('@')) {
-            return <a href="https://www.instagram.com/revivecoffeecart/">{context}</a>
+            return <a href="https://www.instagram.com/revivecoffeecart/"><Insta/></a>
         } else {
             return context
         }
