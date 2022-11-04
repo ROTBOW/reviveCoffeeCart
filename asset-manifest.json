@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/reviveCoffeeCart/static/css/main.9ec0c66b.css",
-    "main.js": "/reviveCoffeeCart/static/js/main.28d79fe7.js",
+    "main.css": "/reviveCoffeeCart/static/css/main.d30d0259.css",
+    "main.js": "/reviveCoffeeCart/static/js/main.5e0f7603.js",
     "static/js/787.0ae90b7b.chunk.js": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js",
     "static/media/rccLogo.png": "/reviveCoffeeCart/static/media/rccLogo.28712214260c083db8c8.png",
+    "static/media/instagram.svg": "/reviveCoffeeCart/static/media/instagram.6d5171d58481634549447b4387ccfe0c.svg",
+    "static/media/copy.svg": "/reviveCoffeeCart/static/media/copy.edc59812ee87b3a6d51e6a03191f0928.svg",
     "index.html": "/reviveCoffeeCart/index.html",
+    "static/media/email.svg": "/reviveCoffeeCart/static/media/email.a8a235bf9595cf237461e4718e6dfb25.svg",
+    "static/media/phone.svg": "/reviveCoffeeCart/static/media/phone.9217c6de896bcfe1c849e0b6bd8e08ae.svg",
     "static/media/caret.svg": "/reviveCoffeeCart/static/media/caret.1d57e6010ffecf14939d1f3fe867c8d6.svg",
-    "main.9ec0c66b.css.map": "/reviveCoffeeCart/static/css/main.9ec0c66b.css.map",
-    "main.28d79fe7.js.map": "/reviveCoffeeCart/static/js/main.28d79fe7.js.map",
+    "main.d30d0259.css.map": "/reviveCoffeeCart/static/css/main.d30d0259.css.map",
+    "main.5e0f7603.js.map": "/reviveCoffeeCart/static/js/main.5e0f7603.js.map",
     "787.0ae90b7b.chunk.js.map": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec0c66b.css",
-    "static/js/main.28d79fe7.js"
+    "static/css/main.d30d0259.css",
+    "static/js/main.5e0f7603.js"
   ]
 }
