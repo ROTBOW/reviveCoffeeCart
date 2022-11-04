@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reviveCoffeeCart/static/css/main.7124dd89.css",
-    "main.js": "/reviveCoffeeCart/static/js/main.eda06245.js",
+    "main.js": "/reviveCoffeeCart/static/js/main.d86404f4.js",
     "static/js/787.0ae90b7b.chunk.js": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js",
     "static/media/cart.jpg": "/reviveCoffeeCart/static/media/cart.4ac42605e04a00624a64.jpg",
     "static/media/rccLogo.png": "/reviveCoffeeCart/static/media/rccLogo.1bf6e047d888691029c3.png",
@@ -13,11 +13,11 @@
     "static/media/phone.svg": "/reviveCoffeeCart/static/media/phone.9217c6de896bcfe1c849e0b6bd8e08ae.svg",
     "static/media/caret.svg": "/reviveCoffeeCart/static/media/caret.1d57e6010ffecf14939d1f3fe867c8d6.svg",
     "main.7124dd89.css.map": "/reviveCoffeeCart/static/css/main.7124dd89.css.map",
-    "main.eda06245.js.map": "/reviveCoffeeCart/static/js/main.eda06245.js.map",
+    "main.d86404f4.js.map": "/reviveCoffeeCart/static/js/main.d86404f4.js.map",
     "787.0ae90b7b.chunk.js.map": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7124dd89.css",
-    "static/js/main.eda06245.js"
+    "static/js/main.d86404f4.js"
   ]
 }
