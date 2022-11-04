@@ -29,7 +29,7 @@ const Navbar = () => {
                     <li>
                         <Phone onClick={()=>{setShowPhone(val => !val)}}/>
                         <div id="phone" className={showPhone ? '' : 'hide'}>
-                            (951) 776-7850 <Copy onClick={()=>{navigator.clipboard.writeText('(951) 776-7850')}}/>
+                            <a href="tel: 951-776-7850">(951) 776-7850</a> <Copy onClick={()=>{navigator.clipboard.writeText('(951) 776-7850')}}/>
                             {/* <spam>Copied!</spam> */}
                         </div>
                     </li>
