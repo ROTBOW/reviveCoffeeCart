@@ -1,7 +1,7 @@
 .dropdown-container {
     margin-right: 0.5rem;
-    // font-family: url('../../assets/fonts/Andy\ Bold.ttf');
-    // src: local('Andy Bold'), url('../../assets/fonts/Andy\ Bold.ttf'), format('woff');
+    font-family: 'AndyBold';
+    font-size: 24px;
     
     svg {
         height: auto;
@@ -31,7 +31,7 @@
         }
 
         .dropdown-subtext {
-            font-size: x-small;
+            font-size: small;
             margin-top: -0.25rem;
         }
     }
@@ -50,7 +50,7 @@
         }
 
         & li:not(:last-child) {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.2rem;
         }
     }
 }

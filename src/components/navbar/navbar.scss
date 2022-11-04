@@ -1,6 +1,13 @@
 .navbar {
     display: flex;
     align-items: center;
+    // justify-content: center;
+    // background-image: url('../../assets/images/cart.jpg');
+    // background-position: bottom right;
+    // background-attachment: fixed;
+    // background-size: contain;
+    // min-width: 50rem;
+    // margin-top: 8rem;
     
     img {
         animation: 3s ease-out 0s 1 fadeInFromAbove;

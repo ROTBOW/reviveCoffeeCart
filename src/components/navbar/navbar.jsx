@@ -25,7 +25,6 @@ const Navbar = () => {
                 <h2>Jayda Luce</h2>
                 <h3>Coffee Cart Catering</h3>
                 <h4>Events & Meetings</h4>
-                {/* <Dropdown text="Contact Me" list="(951) 776-7850,revivecoffeecart@gmail.com,@revivecoffeecart"/> */}
                 <ul>
                     <li>
                         <Phone onClick={()=>{setShowPhone(val => !val)}}/>
