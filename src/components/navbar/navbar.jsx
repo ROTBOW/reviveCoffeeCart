@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.scss";
 import logo from '../../assets/images/rccLogo.png';
-// import Dropdown from "../dropdown/dropdown";
 
 import {ReactComponent as Phone} from '../../assets/images/phone.svg';
 import {ReactComponent as Email} from '../../assets/images/email.svg';
@@ -11,10 +10,16 @@ import {ReactComponent as Copy} from '../../assets/images/copy.svg';
 
 const Navbar = () => {
     const [showPhone, setShowPhone] = useState(false);
+    const [copied, setCopied] = useState(false);
 
-    // const sendTo = () => {
-
-    // };
+    const handleClick = e => {
+        e.stopPropagation();
+        setCopied(true);
+        setTimeout(() => {
+            setCopied(false);
+        }, 1500);
+        navigator.clipboard.writeText('951-776-7850');
+    }
 
     return (
         <div className="navbar">
@@ -30,8 +35,8 @@ const Navbar = () => {
                         <li>
                             <Phone onClick={()=>{setShowPhone(val => !val)}}/>
                             <div id="phone" className={showPhone ? '' : 'hide'}>
-                                <a href="tel: 951-776-7850">(951) 776-7850</a> <Copy onClick={()=>{navigator.clipboard.writeText('951-776-7850')}}/>
-                                {/* <spam>Copied</spam> */}
+                                <a href="tel: 951-776-7850">(951) 776-7850</a> <Copy onClick={handleClick}/>
+                                { copied ? <spam>Copied!</spam> : ''}
                             </div>
                         </li>
                         <li><a href="mailto: revivecoffeecart@gmail.com"><Email/></a></li>
