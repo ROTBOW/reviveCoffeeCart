@@ -19,8 +19,9 @@
 
     .dropdown-button {
         display: flex;
-        cursor: pointer;
+        // cursor: pointer;
         user-select: none;
+        margin-left: 0.5rem;
 
         .side-line {
             opacity: 0;
@@ -39,9 +40,10 @@
     ul {
         list-style: none;
         overflow: hidden;
-        position: absolute;
+        // position: absolute;
         margin-top: 0.5rem;
         max-height: 400px;
+        margin-bottom: 3rem;
 
         transition: 5s all;
         &.hide {

@@ -1,15 +1,17 @@
-import {ReactComponent as Arrow} from '../../assets/images/caret.svg';
+// import {ReactComponent as Arrow} from '../../assets/images/caret.svg';
 import React, { useState } from "react";
 import './dropdown.scss';
 
 const Dropdown = props => {
-    const [drop, setDrop] = useState(false);
+    // const [drop, setDrop] = useState(true);
+    const drop = true;
 
     return (
 
         <div className="dropdown-container">
-            <div className="dropdown-button" onClick={() => setDrop(val => !val)}>
-                <Arrow className={drop ? 'active' : ''}/>
+            {/* <div className="dropdown-button" onClick={() => setDrop(val => !val)}> */}
+            <div className="dropdown-button">
+                {/* <Arrow className={drop ? 'active' : ''}/> */}
                 <div className={`side-line ${drop ? 'active': ''}`}>-</div>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                     {props.text}

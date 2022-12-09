@@ -1,25 +1,46 @@
 .navbar {
     display: flex;
     align-items: center;
-    // justify-content: center;
-    // background-image: url('../../assets/images/cart.jpg');
-    // background-position: bottom right;
-    // background-attachment: fixed;
-    // background-size: contain;
-    // min-width: 50rem;
-    // margin-top: 8rem;
+    @media only screen and (max-width: 701px) {
+        flex-direction: column;
+        .slidein-text {
+            animation: 4s ease-out 0s 1 fadeIn;
+            h2, h3, h4 {
+                text-align: center;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            ul {
+                left: -5rem;
+            }
+        }
+
+        img {
+            animation: 1.5s ease-out 0s 1 fadeInFromAbove;
+        }
+    }
+
+    @media only screen and (min-width: 700px) {
+        .slidein-text {
+            animation: 4s ease-out 0s 1 fadeInFromSide;
+            margin-left: 2rem;
+        }
+
+        img {
+            animation: 3s ease-out 0s 1 fadeInFromAbove;
+            margin-top: 4rem;
+        }
+    }
     
     img {
         animation: 3s ease-out 0s 1 fadeInFromAbove;
         width: 25rem;
-        margin-top: 4rem;
         
         transition: all 500ms;
     }
     
     .slidein-text {
-        margin-left: 2rem;
-        animation: 4s ease-out 0s 1 fadeInFromSide;
         h2, h3, h4 {
             -webkit-touch-callout: none; /* iOS Safari */
             -webkit-user-select: none; /* Safari */
@@ -47,6 +68,7 @@
                     transition: all 500ms;
                     &.hide {
                         opacity: 0;
+                        user-select: none;
                     }
 
                     svg {
@@ -100,5 +122,14 @@
     100% {
         opacity: 100%; 
         transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%; 
     }
 }
