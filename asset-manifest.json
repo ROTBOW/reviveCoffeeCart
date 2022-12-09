@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/reviveCoffeeCart/static/css/main.7124dd89.css",
-    "main.js": "/reviveCoffeeCart/static/js/main.d86404f4.js",
+    "main.css": "/reviveCoffeeCart/static/css/main.b9efac88.css",
+    "main.js": "/reviveCoffeeCart/static/js/main.169cf07c.js",
     "static/js/787.0ae90b7b.chunk.js": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js",
-    "static/media/cart.jpg": "/reviveCoffeeCart/static/media/cart.4ac42605e04a00624a64.jpg",
     "static/media/rccLogo.png": "/reviveCoffeeCart/static/media/rccLogo.1bf6e047d888691029c3.png",
     "static/media/Andy Bold.ttf": "/reviveCoffeeCart/static/media/Andy Bold.476d3f23e498efffdbe0.ttf",
     "static/media/instagram.svg": "/reviveCoffeeCart/static/media/instagram.6d5171d58481634549447b4387ccfe0c.svg",
@@ -11,13 +10,12 @@
     "index.html": "/reviveCoffeeCart/index.html",
     "static/media/email.svg": "/reviveCoffeeCart/static/media/email.a8a235bf9595cf237461e4718e6dfb25.svg",
     "static/media/phone.svg": "/reviveCoffeeCart/static/media/phone.9217c6de896bcfe1c849e0b6bd8e08ae.svg",
-    "static/media/caret.svg": "/reviveCoffeeCart/static/media/caret.1d57e6010ffecf14939d1f3fe867c8d6.svg",
-    "main.7124dd89.css.map": "/reviveCoffeeCart/static/css/main.7124dd89.css.map",
-    "main.d86404f4.js.map": "/reviveCoffeeCart/static/js/main.d86404f4.js.map",
+    "main.b9efac88.css.map": "/reviveCoffeeCart/static/css/main.b9efac88.css.map",
+    "main.169cf07c.js.map": "/reviveCoffeeCart/static/js/main.169cf07c.js.map",
     "787.0ae90b7b.chunk.js.map": "/reviveCoffeeCart/static/js/787.0ae90b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7124dd89.css",
-    "static/js/main.d86404f4.js"
+    "static/css/main.b9efac88.css",
+    "static/js/main.169cf07c.js"
   ]
 }
