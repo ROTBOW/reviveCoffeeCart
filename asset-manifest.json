@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1fd550e.css",
-    "main.js": "/static/js/main.6f4630cd.js",
+    "main.css": "/static/css/main.97332cc8.css",
+    "main.js": "/static/js/main.d7ecb2b2.js",
     "static/js/787.0ae90b7b.chunk.js": "/static/js/787.0ae90b7b.chunk.js",
     "static/media/rccLogo.png": "/static/media/rccLogo.c00eaa797d647420a8a2.png",
     "static/media/Andy Bold.ttf": "/static/media/Andy Bold.476d3f23e498efffdbe0.ttf",
@@ -10,12 +10,12 @@
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.a8a235bf9595cf237461e4718e6dfb25.svg",
     "static/media/phone.svg": "/static/media/phone.9217c6de896bcfe1c849e0b6bd8e08ae.svg",
-    "main.b1fd550e.css.map": "/static/css/main.b1fd550e.css.map",
-    "main.6f4630cd.js.map": "/static/js/main.6f4630cd.js.map",
+    "main.97332cc8.css.map": "/static/css/main.97332cc8.css.map",
+    "main.d7ecb2b2.js.map": "/static/js/main.d7ecb2b2.js.map",
     "787.0ae90b7b.chunk.js.map": "/static/js/787.0ae90b7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1fd550e.css",
-    "static/js/main.6f4630cd.js"
+    "static/css/main.97332cc8.css",
+    "static/js/main.d7ecb2b2.js"
   ]
 }
