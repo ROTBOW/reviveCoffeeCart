@@ -75,6 +75,6 @@ select {
 
 @font-face {
   font-family: 'AndyBold';
-  src: local("AndyBold"), url("./assets/fonts/Andy\ Bold.ttf") format('truetype');
+  src: local("AndyBold"), url("./../assets/fonts/Andy\ Bold.ttf") format('truetype');
   font-weight: bold;
 }

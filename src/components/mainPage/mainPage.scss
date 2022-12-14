@@ -1,3 +1,5 @@
+@import './../../styles/animations.scss';
+
 .mainPage {
     display: flex;
     align-items: center;
@@ -25,7 +27,7 @@
 
         img {
             animation: 1.5s ease-out 0s 1 fadeInFromAbove;
-        }
+        }        
     }
 
     @media only screen and (min-width: 700px) {
@@ -110,60 +112,31 @@
             }
         }
     }
-}
-
-@keyframes lilShake {
-    35% {
-        transform: rotateZ(-20deg);
-    }
-    65% {
-        transform: rotateZ(15deg);
-    }
 
 }
 
-@keyframes fadeInFromAbove {
-    0% {
-        opacity: 0;
-        transform: translateY(-100%);
-    }
-    100% {
-        opacity: 100%; 
-        transform: translateY(0);
-    }
-}
+.content-container {
+    display: flex;
 
-@keyframes fadeInFromSide {
-    0% {
-        opacity: 0;
-        transform: translateX(100%);
+    @media only screen and (min-width: 700px){
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+        width: 40rem;
+        animation: 3s ease-out 0s 1 fadeInFromBelow;
     }
-    100% {
-        opacity: 100%; 
-        transform: translateX(0);
-    }
-}
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 100%; 
-    }
-}
+    @media only screen and (max-width: 701px){
 
-@keyframes fadeInNOut {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 100%; 
-    }
-    70% {
-        opacity: 100%; 
-    }
-    100% {
-        opacity: 0; 
+        margin-top: 6rem;
+        display: flex;
+        align-items: flex-start;
+        animation: 4s ease-out 0s 1 fadeIn;
+    
+        #spacer {
+            width: 1rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
     }
 }

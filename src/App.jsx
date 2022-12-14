@@ -1,21 +1,25 @@
+import { Route, Routes, Redirect, Navigate, HashRouter } from 'react-router-dom';
 import React from 'react';
-import './App.scss';
-import Dropdown from './components/dropdown/dropdown';
+import './styles/App.scss';
 
 import MainPage from './components/mainPage/mainPage';
+import Navbar from './components/navbar/navbar';
 
 const App = () => {
 
 
   return (
-    <div className="App">
-      <MainPage/>
-      <div className="content-container">
-        <Dropdown text="Coffee List" list="Latte,Cappucino,Americano,Espresso,Coldbrew,Expresso + Tonic"/>
-        <div id="spacer"></div>
-        <Dropdown text="Les Saveurs" subtext="(Flavors)" list="Vanilla,Lavender,Mocha,Honey,Sugar Free Vanilla"/>
+    <HashRouter>
+      <div className="App">
+        <Navbar/>
+
+        <Routes>
+          <Route path='/' element={<MainPage/>}/>
+
+          <Route path="*" element={ <Navigate to='/' replace/> }/>
+        </Routes>
       </div>
-    </div>
+    </HashRouter>
   );
 }
 
