@@ -2,14 +2,14 @@ import React from 'react';
 import './App.scss';
 import Dropdown from './components/dropdown/dropdown';
 
-import Navbar from './components/navbar/navbar';
+import MainPage from './components/mainPage/mainPage';
 
 const App = () => {
 
 
   return (
     <div className="App">
-      <Navbar/>
+      <MainPage/>
       <div className="content-container">
         <Dropdown text="Coffee List" list="Latte,Cappucino,Americano,Espresso,Coldbrew,Expresso + Tonic"/>
         <div id="spacer"></div>

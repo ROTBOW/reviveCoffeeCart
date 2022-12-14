@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from '../../assets/images/rccLogo.png';
-import "./navbar.scss";
+import "./mainPage.scss";
 
 import {ReactComponent as Phone} from '../../assets/images/phone.svg';
 import {ReactComponent as Email} from '../../assets/images/email.svg';
@@ -54,7 +54,7 @@ const PhoneButton = () => {
 const Navbar = () => {
 
     return (
-        <div className="navbar">
+        <div className="mainPage">
             <div>
                 <img src={logo} alt="Revive Coffee Logo"/>
             </div>
