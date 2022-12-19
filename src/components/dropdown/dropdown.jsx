@@ -1,5 +1,5 @@
 // import {ReactComponent as Arrow} from '../../assets/images/caret.svg';
-import React, { useState } from "react";
+import React from "react";
 import './dropdown.scss';
 
 const Dropdown = props => {
