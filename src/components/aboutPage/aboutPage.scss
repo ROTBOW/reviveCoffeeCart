@@ -14,6 +14,7 @@
         align-items: center;
         max-width: 40rem;
         margin-right: 1rem;
+        animation: 3s ease-out 0s 1 fadeInFromLeft;
         
         h2 {
             font-family: "AndyBold";
@@ -27,6 +28,7 @@
 
 
     a {
+        animation: 3s ease-out 0s 1 fadeInFromRight;
         width: 65rem;
         margin-left: 1rem;
 

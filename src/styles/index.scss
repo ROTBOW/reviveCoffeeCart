@@ -3,6 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Remove default margin */
