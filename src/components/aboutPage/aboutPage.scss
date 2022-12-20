@@ -7,6 +7,7 @@
     margin-right: 10rem;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
 
     #about-text {
         display: flex;
@@ -14,7 +15,7 @@
         align-items: center;
         max-width: 40rem;
         margin-right: 1rem;
-        animation: 3s ease-out 0s 1 fadeInFromLeft;
+        animation: 4s ease-out 0s 1 fadeInFromLeft;
         
         h2 {
             font-family: "AndyBold";
@@ -34,7 +35,7 @@
 
         img {
             border-radius: 10%;
-            max-width: 100%;
+            max-width: 630px;
             height: auto;
         }
     }
