@@ -9,7 +9,6 @@ import {ReactComponent as Copy} from '../../assets/images/copy.svg';
 import Dropdown from "../dropdown/dropdown";
 
 const PhoneButton = props => {
-    // const [width, setWidth] = useState(window.innerWidth);
     const [showPhone, setShowPhone] = useState(false);
     const [copied, setCopied] = useState(false);
 
@@ -21,17 +20,6 @@ const PhoneButton = props => {
         }, 1500);
         navigator.clipboard.writeText('951-776-7850');
     }
-
-    // const handleWindowResize = () => {
-    //     setWidth(window.innerWidth);
-    // }
-
-    // useEffect(() => {
-    //     window.addEventListener('resize', handleWindowResize);
-    //     return () => window.removeEventListener('resize', handleWindowResize)
-    // }, [])
-
-    // const isMobile = width <= 700;
 
     if (!props.isMobile) {
         return (
