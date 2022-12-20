@@ -55,7 +55,7 @@ const PhoneButton = props => {
 const mainPage = props => {
 
     return (
-        <>
+        <div style={{"overflow": "hidden"}}>
             <div className="mainPage">
                 <div>
                     <img src={logo} alt="Revive Coffee Logo"/>
@@ -78,7 +78,7 @@ const mainPage = props => {
                 <div id="spacer"></div>
                 <Dropdown text="Les Saveurs" subtext="(Flavors)" list="Vanilla,Lavender,Mocha,Honey,Sugar Free Vanilla"/>
             </div>
-        </>
+        </div>
     )
 };
 
