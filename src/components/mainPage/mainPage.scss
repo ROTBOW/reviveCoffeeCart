@@ -49,7 +49,6 @@
 
         img {
             animation: 3s ease-out 0s 1 fadeInFromAbove;
-            margin-top: 4rem;
         }
     }
     
@@ -69,6 +68,7 @@
             -moz-user-select: none; /* Old versions of Firefox */
             -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
         ul {

@@ -1,19 +1,22 @@
 .navbar {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    z-index: 50;
 
     button {
         margin-left: 1rem;
         border-radius: 15%;
         border: #80808054 1px solid;
         opacity: 85%;
-        font-family: 'AndyBold';
+        // font-family: 'AndyBold';
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 24px;
         
         transition: all 250ms;
         &:hover {
             border: #808080 1px solid;
             opacity: 1;
+            cursor: pointer;
         }
     }
 }
