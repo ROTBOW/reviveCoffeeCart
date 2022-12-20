@@ -14,7 +14,7 @@
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 1171px) {
     // computer screen
     .about-page {
         display: flex;
@@ -53,20 +53,30 @@
 }
 
 
-@media only screen and (max-width: 701px) {
+@media only screen and (max-width: 1170px) {
     // phone screen
     .about-page {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
 
         a {
+            max-height: 30rem;
             animation: 3s ease-out 0s 1 fadeInFromAbove;
+            // width: 90%;
+            margin: 0 1rem 0 1rem;
+
+            img {
+                border-radius: 10%;
+                max-height: 30rem;
+            }
         }
 
         #about-text {
             text-align: center;
             margin: 1rem 1rem 2rem 1rem;
             animation: 3s ease-out 0s 1 fadeInFromBelow;
+            width: 90%;
         }
     }
 }
