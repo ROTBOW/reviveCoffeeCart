@@ -1,3 +1,67 @@
+@import "./../../styles/animations.scss";
+
 .price-page {
-    
+    animation: 4s ease-out 0s 1 fadeInFromBelow;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: $secondary-font;
+    overflow: hidden;
+    text-align: center;
+
+    #price-opening-text {
+        font-family: $primary-font;
+        font-size: 22px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    sup {
+        font-size: 14px;
+    }
+
+}
+
+#example-menu {
+    height: auto;
+    margin-top: 1rem;
+}
+
+.price-calc {
+    font-size: 18px;
+    animation: 4s ease-out 0s 1 fadeIn;
+    margin-bottom: 1rem;
+    font-family: $secondary-font;
+
+    h3 {
+        font-family: $primary-font;
+        font-size: 24px;
+    }
+
+    input {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    // computer screen
+
+    #example-menu {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    // phone screen
+    .price-page {
+        margin: 1rem 1rem 2rem 1rem;
+    }
+
+    #example-menu {
+        max-width: 80%;
+    }
+
 }
