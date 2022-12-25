@@ -13,11 +13,11 @@
 
     #about-text {
         h2 {
-            font-family: "AndyBold";
+            font-family: $primary-font;
         }
     
         p {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: $secondary-font;
         }
     }
 }

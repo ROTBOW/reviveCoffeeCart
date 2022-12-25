@@ -68,7 +68,7 @@
             -moz-user-select: none; /* Old versions of Firefox */
             -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: $secondary-font;
         }
 
         ul {
