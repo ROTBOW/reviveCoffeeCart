@@ -6,33 +6,11 @@
     // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 24px;
     overflow: hidden;
-    
-    svg {
-        height: auto;
-        width: 0.8rem;
-        transform: rotateZ(90deg);
-        margin-right: 0.1rem;
-        
-        
-        transition: all 1s;
-        &.active {
-            transform: rotateZ(180deg);
-            margin-right: 1rem;
-        }
-    }
 
     .dropdown-button {
         display: flex;
         user-select: none;
         margin-left: 0.5rem;
-
-        .side-line {
-            opacity: 0;
-            transition: opacity 1s;
-            &.active {
-                opacity: 100%;
-            }
-        }
 
         .dropdown-subtext {
             font-size: small;
@@ -46,14 +24,8 @@
         margin-top: 0.5rem;
         max-height: 400px;
         margin-bottom: 3rem;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: $secondary-font;
         overflow: hidden;
-
-        transition: 5s all;
-        &.hide {
-            max-height: 0;
-            transition: 500ms all;
-        }
 
         & li:not(:last-child) {
             margin-bottom: 0.2rem;
