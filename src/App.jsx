@@ -2,9 +2,10 @@ import { Route, Routes, Navigate, HashRouter } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import './styles/App.scss';
 
-import MainPage from './components/mainPage/mainPage';
 import Navbar from './components/navbar/navbar';
+import MainPage from './components/mainPage/mainPage';
 import AboutPage from './components/aboutPage/aboutPage';
+import PricePage from './components/pricePage/pricePage';
 
 const App = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 700);
@@ -25,6 +26,7 @@ const App = () => {
 
         <Routes>
           <Route path='about' element={<AboutPage/>}/>
+          <Route path='prices' element={<PricePage/>}/>
           <Route path='' element={<MainPage isMobile={isMobile}/>}/>
 
           <Route path="*" element={ <Navigate to='' replace/> }/>

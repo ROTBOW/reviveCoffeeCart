@@ -15,8 +15,9 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <button onClick={sendTo('')}>Home</button>
-            <button onClick={sendTo('/about')}>About</button>
+                <button onClick={sendTo('')}>Home</button>
+                <button onClick={sendTo('/about')}>About Me</button>
+                <button onClick={sendTo('/prices')}>Prices</button>
         </div>
     )
 };
