@@ -22,12 +22,6 @@
     }
 }
 
-#about-logo {
-    position: fixed;
-    z-index: -1;
-    opacity: 7%;
-}
-
 @media only screen and (min-width: 1171px) {
     // computer screen
 
@@ -89,21 +83,3 @@
     }
 }
 
-@media only screen and (min-width: 701px) {
-    // computer screen
-    #about-logo {
-        top: -15rem;
-        max-width: 90%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    // phone screen
-
-    #about-logo {
-        width: 45rem;
-        max-width: 45rem;
-        height: auto;
-    }
-}

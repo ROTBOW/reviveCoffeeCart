@@ -1,14 +1,14 @@
 import React from 'react';
 import './aboutPage.scss';
 import handingOutCoffee from './../../assets/images/handingOutCoffee.png';
-import logo from '../../assets/images/rccLogo.png';
+import Watermark from '../watermark/watermark';
 
 
 const AboutPage = () =>{
     
   return (
     <>
-      <img src={logo} id="about-logo"/>
+      <Watermark/>
       <div className="about-page">
         <div id="about-text">
           <h2>About Me!</h2>
