@@ -4,7 +4,7 @@ import './watermark.scss';
 
 
 const Watermark = () => {
-    return <img src={logo} className="watermark"/>;
+    return <img src={logo} className="watermark" alt="Revive Coffee Logo"/>;
 }
 
 export default Watermark;
