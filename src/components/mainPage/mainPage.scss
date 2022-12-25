@@ -89,6 +89,8 @@
                     &.hide {
                         opacity: 0;
                         user-select: none;
+                        cursor: default;
+                        pointer-events: none;
                     }
 
                     svg {
@@ -102,7 +104,6 @@
                         font-size: 14px;
                         left: 8.5rem;
                         bottom: 1.9rem;
-                        border: grey 1px solid;
                         border-radius: 12%;
                         padding: 0 0.2rem 0 0.2rem;
                     }
