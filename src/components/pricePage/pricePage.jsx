@@ -14,16 +14,7 @@ const PriceCalc = () => {
     }, [guestCount]);
 
     const handleChange = e => {
-        let count = e.target.value
-        if (count < 20) {
-            // e.target.value = 20
-            setGuestCount(20)
-        } else if (count > 150) {
-            // e.target.value = 150
-            setGuestCount(150)
-        } else {
-            setGuestCount(count)
-        }
+        setGuestCount(e.target.value);
     }
 
     return (
@@ -36,6 +27,7 @@ const PriceCalc = () => {
                 min="20"
                 max="150"
                 placeholder='20'
+                value={guestCount}
                 onChange={handleChange}
                 id="priceCalc"
                 />
