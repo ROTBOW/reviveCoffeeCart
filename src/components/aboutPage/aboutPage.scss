@@ -22,8 +22,21 @@
     }
 }
 
+#about-logo {
+    position: fixed;
+    z-index: -1;
+    opacity: 7%;
+}
+
 @media only screen and (min-width: 1171px) {
     // computer screen
+
+    #about-logo {
+        top: -15rem;
+        max-width: 100%;
+        height: auto;
+    }
+
     .about-page {
         margin: 2rem 10rem 0 10rem;
         align-items: center;
@@ -58,6 +71,13 @@
 
 @media only screen and (max-width: 1170px) {
     // phone screen
+
+    #about-logo {
+        width: 45rem;
+        max-width: 45rem;
+        height: auto;
+    }
+
     .about-page {
         flex-direction: column-reverse;
         align-items: center;
