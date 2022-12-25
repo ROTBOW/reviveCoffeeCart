@@ -66,7 +66,6 @@ const PricePage = () => {
                     <h4>The exact contents will differ based on the what options you would like,<br/>here is an example of what the menu will look like:</h4>
                     <img id="example-menu" src={menu} alt="example logo containing a list of diffrent coffee types, as well as flavors"/>
                 </div>
-                <br/><br/>
             </div>
             <PriceCalc/>
         </>
