@@ -1,7 +1,7 @@
 @import "./../../styles/animations.scss";
 
 .price-page {
-    animation: 4s ease-out 0s 1 fadeInFromBelow;
+    animation: 2s ease-out 0s 1 fadeInFromBelow;
     margin-top: 2rem;
     font-size: 18px;
     font-family: $secondary-font;
@@ -35,14 +35,22 @@
     animation: 4s ease-out 0s 1 fadeIn;
     margin-bottom: 1rem;
     font-family: $secondary-font;
+    margin: 1rem 1rem 4rem 1rem;
 
     h3 {
         font-family: $primary-font;
         font-size: 24px;
     }
 
-    input {
-        width: 50%;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .price-total {
+        font-family: $primary-font;
+        font-size: 32px;
     }
 }
 

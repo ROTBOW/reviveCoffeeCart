@@ -14,24 +14,34 @@ const PriceCalc = () => {
     }, [guestCount]);
 
     const handleChange = e => {
-        setGuestCount(e.target.value);
-    }
+        let count = e.target.value;
+        if (count > 150) {
+            setGuestCount(150)
+        } else if (count < 20) {
+            setGuestCount(20)
+        } else {
+            setGuestCount(count)
+        }
+    };
 
     return (
         <div className='price-calc'>
             <h3>Price Calculator</h3>
             <h4>This is only a tool for estimation, the actual cost may differ.</h4>
-            <label htmlFor="priceCalc">Guest Amount: {guestCount}</label>
-            <input 
-                type="range"
-                min="20"
-                max="150"
-                placeholder='20'
-                value={guestCount}
-                onChange={handleChange}
-                id="priceCalc"
-                />
-            <div className='priceTotal'>Total: ${price}</div>
+            <div>
+                <label htmlFor="priceCalc">Guest Amount:&nbsp;
+                    <input 
+                        type="number"
+                        min="20"
+                        max="150"
+                        placeholder='20'
+                        value={guestCount}
+                        onChange={handleChange}
+                        id="priceCalc"
+                        />
+                </label>
+                <div className='price-total'>Total: ${price}</div>
+            </div>
         </div>
     )
 }
